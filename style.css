@@ -4,6 +4,7 @@ body {
   font-family: Georgia, serif;
   background: #fdf6e3; /* parchment tone */
   color: #3b2f2f;      /* deep brown text */
+  body { background: yellow; }
   margin: 0;
   padding: 20px;
 }
@@ -109,5 +110,6 @@ img {
   display: block;     /* avoids inline spacing issues */
   margin: 10px 0;     /* adds breathing room */
 }
+
 
 
