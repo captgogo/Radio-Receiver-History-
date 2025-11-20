@@ -1,0 +1,106 @@
+/* ===== Vintage Radio Index Styling ===== */
+
+body {
+  font-family: Georgia, serif;
+  background: #fdf6e3; /* parchment tone */
+  color: #3b2f2f;      /* deep brown text */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  color: #3b2f2f;
+  background: #d2b48c; /* tan banner */
+  padding: 10px;
+  border: 3px double #3b2f2f;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background: #fffaf0; /* aged paper */
+  border: 2px solid #d2b48c;
+  border-radius: 6px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03); /* subtle hover effect */
+}
+
+.card h2 {
+  font-family: "Courier New", monospace;
+  font-size: 1.3em;
+  border-bottom: 1px solid #d2b48c;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #3b2f2f;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
+.photo-pair {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  justify-content: center;
+}
+
+.photo-pair img {
+  width: 48%;             /* each photo takes half the card */
+  max-height: 160px;      /* cap the height */
+  border: 3px solid #d2b48c;
+  border-radius: 4px;
+  filter: sepia(30%);
+  object-fit: cover;      /* keeps proportions tidy, crops slightly if needed */
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Courier New", monospace;
+  color: #3b2f2f;
+  border-top: 2px solid #d2b48c;
+  padding-top: 10px;
+  font-size: 0.9em;
+  background-color: #fffaf0; /* aged paper look */
+}nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  font-family: "Courier New", monospace;
+  color: #3b2f2f;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Courier New", monospace;
+  color: #3b2f2f;
+  border-top: 2px solid #d2b48c;
+  padding-top: 10px;
+  font-size: 0.9em;
+  background-color: #fffaf0; /* aged paper look */
+}
+
