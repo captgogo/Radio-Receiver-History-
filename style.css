@@ -4,7 +4,6 @@ body {
   font-family: Georgia, serif;
   background: #fdf6e3; /* parchment tone */
   color: #3b2f2f;      /* deep brown text */
-  body { background: yellow; }
   margin: 0;
   padding: 20px;
 }
@@ -62,8 +61,8 @@ h1 {
 }
 
 .photo-pair img {
-  width: 300px;             /* each photo takes half the card */
-  max-height: autopx;      /* cap the height */
+  width: 48%;             /* each photo takes half the card */
+  max-height: 160px;      /* cap the height */
   border: 3px solid #d2b48c;
   border-radius: 4px;
   filter: sepia(30%);
@@ -104,19 +103,13 @@ footer {
   font-size: 0.9em;
   background-color: #fffaf0; /* aged paper look */
 }
-img {
-  max-width: 400px;   /* limits width */
-  height: auto;       /* keeps proportions */
-  display: block;     /* avoids inline spacing issues */
-  margin: 10px 0;     /* adds breathing room */
-}
-ad-image {
+.ad-image {
   margin-top: 15px;
   text-align: center;
 }
 
 .ad-image img {
-  max-width: 400px;
+  max-width: 100%;
   height: auto;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
@@ -126,7 +119,9 @@ ad-image {
   font-size: 0.9em;
   color: #555;
   margin-top: 5px;
+
 }
+
 
 
 
