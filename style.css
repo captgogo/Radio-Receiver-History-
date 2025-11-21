@@ -25,11 +25,11 @@ h1 {
   gap: 25px;
 }
 
-card {
+.card {
   background: #fffaf0; /* aged paper */
   border: 2px solid #d2b48c;
   border-radius: 6px;
-  width: 300px;
+  width: 800px;
   padding: 15px;
   box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
   transition: transform 0.2s ease;
@@ -61,9 +61,9 @@ card {
 }
 
 .photo-pair img {
-  width: 48%;             /* each photo takes half the card */
-  max-height: 160px;      /* cap the height */
-  border: 3px solid #d2b48c;
+  width: 400px;             /* each photo takes half the card */
+  max-height: auto;      /* cap the height */
+  border: 1px solid #aaa;
   border-radius: 4px;
   filter: sepia(30%);
   object-fit: cover;      /* keeps proportions tidy, crops slightly if needed */
@@ -109,13 +109,13 @@ footer {
 }
 
 .ad-image img {
-  max-width: 100%;
+  max-width: 400px;
   height: auto;
-  border: 1px solid #ccc;
+  border: 1px solid #aaa;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
-.caption {
+.ad image .caption {
   font-size: 0.9em;
   color: #555;
   margin-top: 5px;
