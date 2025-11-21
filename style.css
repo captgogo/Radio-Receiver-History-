@@ -24,81 +24,100 @@ h1 {
   justify-content: center;
   gap: 25px;
 }
-/* General card styling */
-.card {
-  border: 1px solid #ccc;
+
+card {
+  background: #fffaf0; /* aged paper */
+  border: 2px solid #d2b48c;
+  border-radius: 6px;
+  width: 300px;
   padding: 15px;
-  margin: 20px auto;
-  max-width: 800px;
-  background: #fafafa;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
 }
 
-/* Headings */
+.card:hover {
+  transform: scale(1.03); /* subtle hover effect */
+}
+
 .card h2 {
-  margin-top: 0;
-  font-size: 1.5em;
-  color: #333;
+  font-family: "Courier New", monospace;
+  font-size: 1.3em;
+  border-bottom: 1px solid #d2b48c;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #3b2f2f;
 }
 
-/* Photo pair images side by side */
+.card p {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
 .photo-pair {
   display: flex;
-  justify-content: center;
   gap: 10px;
   margin: 10px 0;
+  justify-content: center;
 }
 
 .photo-pair img {
-  width: 300px;   /* scale down to a manageable size */
-  height: auto;   /* keep proportions */
-  border: 1px solid #aaa;
+  width: 48%;             /* each photo takes half the card */
+  max-height: 160px;      /* cap the height */
+  border: 3px solid #d2b48c;
   border-radius: 4px;
+  filter: sepia(30%);
+  object-fit: cover;      /* keeps proportions tidy, crops slightly if needed */
 }
-
-/* Advertisement image centered */
-.ad-image {
+footer {
   text-align: center;
-  margin-top: 15px;
-}
-
-.ad-image img {
-  width: 400px;   /* slightly larger for ads */
-  height: auto;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-}
-
-.ad-image .caption {
+  margin-top: 40px;
+  font-family: "Courier New", monospace;
+  color: #3b2f2f;
+  border-top: 2px solid #d2b48c;
+  padding-top: 10px;
   font-size: 0.9em;
-  color: #555;
-  margin-top: 5px;
-  font-style: italic;
-}
-
-/* Navigation bar */
-nav {
-  background: #333;
-  padding: 10px;
+  background-color: #fffaf0; /* aged paper look */
+}nav {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 nav a {
-  color: #fff;
+  font-family: "Courier New", monospace;
+  color: #3b2f2f;
   text-decoration: none;
   margin: 0 10px;
-  font-weight: bold;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Courier New", monospace;
+  color: #3b2f2f;
+  border-top: 2px solid #d2b48c;
+  padding-top: 10px;
+  font-size: 0.9em;
+  background-color: #fffaf0; /* aged paper look */
+}
+.ad-image {
+  margin-top: 15px;
+  text-align: center;
+}
 
+.ad-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
 
-
-
-
-
-
+.caption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
 
