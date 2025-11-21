@@ -62,8 +62,8 @@ h1 {
 }
 
 .photo-pair img {
-  width: 48%;             /* each photo takes half the card */
-  max-height: 160px;      /* cap the height */
+  width: 300px;             /* each photo takes half the card */
+  max-height: autopx;      /* cap the height */
   border: 3px solid #d2b48c;
   border-radius: 4px;
   filter: sepia(30%);
@@ -116,7 +116,7 @@ ad-image {
 }
 
 .ad-image img {
-  max-width: 100%;
+  max-width: 400px;
   height: auto;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
@@ -127,6 +127,7 @@ ad-image {
   color: #555;
   margin-top: 5px;
 }
+
 
 
 
