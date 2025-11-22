@@ -22,7 +22,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
+  gap: 20px;
 }
 
 .card {
@@ -121,5 +121,6 @@ footer {
   color: #555;
   margin-top: 5px;
 }
+
 
 
