@@ -32,6 +32,7 @@ h1 {
   width: 800px;
   padding: 15px;
   box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  flex: 0 0 calc(50% - 20px); /* two
   transition: transform 0.2s ease;
 }
 
@@ -120,4 +121,5 @@ footer {
   color: #555;
   margin-top: 5px;
 }
+
 
