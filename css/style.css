@@ -5,7 +5,7 @@ body {
   background: #fdf6e3; /* parchment tone */
   color: #3b2f2f;      /* deep brown text */
   margin: 0;
-  padding: 25px;
+  padding: 20px;
 }
 
 h1 {
@@ -27,12 +27,11 @@ h1 {
 
 .card {
   background: #fffaf0; /* aged paper */
-  border: 1px solid #d2b48c;
+  border: 2px solid #d2b48c;
   border-radius: 6px;
-  width: 450px;
-  padding: 12px;
+  width: 800px;
+  padding: 15px;
   box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
-  flex: 1 1 45%; /* two
   transition: transform 0.2s ease;
 }
 
@@ -121,6 +120,7 @@ footer {
   color: #555;
   margin-top: 5px;
 }
+
 
 
 
