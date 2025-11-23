@@ -5,7 +5,7 @@ body {
   background: #fdf6e3; /* parchment tone */
   color: #3b2f2f;      /* deep brown text */
   margin: 0;
-  padding: 20px;
+  padding: 25px;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .card {
@@ -121,6 +121,7 @@ footer {
   color: #555;
   margin-top: 5px;
 }
+
 
 
 
