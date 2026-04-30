@@ -121,8 +121,19 @@ footer {
   margin-top: 5px;
 }
 
+.story-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #4a7bd0;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 6px;
+}
 
-
+.story-button:hover {
+    background-color: #355a9e;
+}
 
 
 
